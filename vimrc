@@ -16,7 +16,7 @@ set cursorline
 colorscheme elflord
 syntax on
 " make tab etc. visible when type :set list 
-set listchars=tab:^.,trail:_,eol:↲,extends:>,precedes:<,nbsp:%
+set listchars=tab:^.,trail:_,eol:~,extends:>,precedes:<,nbsp:%
  
 " match uppercase even if lowercase
 set smartcase
