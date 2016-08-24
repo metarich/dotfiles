@@ -24,6 +24,10 @@ set smartcase
 " keymaps
 nmap <Esc><Esc> :nohlsearch<CR><Esc>
 inoremap <C-c> <ESC>
+inoremap { {}<Left>
+inoremap {<Enter> {}<Left><CR><ESC><S-o>
+inoremap ( ()<ESC>i
+inoremap (<Enter> ()<Left><CR><ESC><S-o>
 "set imdisable
 
 " dont show cursorline if txt file
