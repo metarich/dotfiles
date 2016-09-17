@@ -21,4 +21,3 @@ export LC_ALL="en_US.UTF-8"
 autoload colors
 colors
 PROMPT='%F{cyan}%n@%m%f:%F{yellow}%C%f%% '
-alias cdp='cd /mnt/c/Users/fusahusa/Documents/Programming/'
